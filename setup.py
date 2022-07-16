@@ -27,7 +27,7 @@ def main():
             'doc_analyzer',
             'doc_analyzer.pdf_analyzer',
             'doc_analyzer.link_analyzer'],
-        install_requires=['requests>=2.21.0', 'pdfminer'],
+        install_requires=['requests>=2.21.0', 'pdfminer', 'pdfx~=1.4.1'],
         include_package_data=True,
         keywords="mypackage for homework"
     )
