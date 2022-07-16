@@ -6,7 +6,7 @@
 </p>
 
 
-# Doc Analyzer Package
+# PDF Analyzer tool Package
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Build Status](https://github.com/cheind/py-motmetrics/actions/workflows/python-package.yml/badge.svg)](https://github.com/cheind/py-motmetrics/actions/workflows/python-package.yml)
