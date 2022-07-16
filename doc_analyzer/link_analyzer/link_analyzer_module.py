@@ -16,7 +16,7 @@ class LinkAnalyzer:
 
     def review_link(self, link=None):
         try:
-            r = requests.get(link)
+            requests.get(link)
             return True
         except requests.RequestException:
             return False
