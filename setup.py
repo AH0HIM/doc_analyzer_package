@@ -23,7 +23,10 @@ def main():
         url="https://github.com/AH0HIM",
         author='Ikonnikov Ilya',
         author_email='i666943097@gmail.com',
-        packages=['doc_analyzer'],
+        packages=[
+            'doc_analyzer',
+            'doc_analyzer.pdf_analyzer',
+            'doc_analyzer.link_analyzer'],
         install_requires=['requests>=2.21.0', 'pdfminer'],
         include_package_data=True,
         keywords="mypackage for homework"
