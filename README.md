@@ -8,6 +8,10 @@
 
 # PDF Analyzer Tool Package
 
+
+#### **PDF Analyzer Tool** is a simple tool that parses a PDF document and checks for broken hyperlinks. This done by sending a simple HTTP request to each link found in a given document.
+
+
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Build Status](https://github.com/cheind/py-motmetrics/actions/workflows/python-package.yml/badge.svg)](https://github.com/cheind/py-motmetrics/actions/workflows/python-package.yml)
 [![My Telegram](https://img.shields.io/badge/%20%20My%20Telegram-2ba2d9.svg)](https://t.me/b3yond3r)
