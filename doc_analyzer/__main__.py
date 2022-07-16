@@ -1,4 +1,4 @@
-import doc_analyzer
+from doc_analyzer import PDFAnalyzer
 
 
 class MainApp:
@@ -6,14 +6,16 @@ class MainApp:
         self.path = path
 
     def run(self):
-        pdf = doc_analyzer.PDFAnalyzer(self.path)
+        pdf = PDFAnalyzer(self.path)
         pdf.link_analyzer.collect_links()
-        pdf.link_analyzer.review_link()
-        pdf.link_analyzer.clean()
+        pdf.link_analyzer.review_link(pdf.dict_url['url'][0])
+        pdf.link_analyzer.review_links(pdf.dict_url['url'][2:9])
         pdf.link_analyzer.make_report()
+        pdf.link_analyzer.clean()
 
 
 if __name__ == "__main__":
-    print("Run my doc_analyzer_package")
-    pdf_ = doc_analyzer.PDFAnalyzer('//')
-    print("Done")
+    print("Start...")
+    pdf = MainApp('../example_pdf/example.pdf')
+    pdf.run()
+    print("Finish!")

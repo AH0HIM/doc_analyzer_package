@@ -18,7 +18,7 @@ def main():
         name='doc-analyzer-package',
         version='1.0',
         description='My Doc Analyzer Package',
-        long_description=open('README.rst').read(),
+        long_description=open('README.md').read(),
         long_description_content_type="text/markdown",
         url="https://github.com/AH0HIM",
         author='Ikonnikov Ilya',
