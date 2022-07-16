@@ -2,8 +2,8 @@ import os
 import time
 import pprint
 import logging
-from doc_analyzer.pdf_analyzer.pdf_module import PDFAnalyzer
-from doc_analyzer.link_analyzer.link_module import LinkAnalyzer
+from doc_analyzer.pdf_analyzer.pdf_analyzer_module import PDFAnalyzer
+from doc_analyzer.link_analyzer.link_analyzer_module import LinkAnalyzer
 
 os.makedirs(os.path.abspath(os.curdir) + os.sep + "logs", exist_ok=True)
 logging.basicConfig(level=logging.DEBUG, format=u"%(filename)s[LINE:%(lineno)d]# %(levelname)-8s"
