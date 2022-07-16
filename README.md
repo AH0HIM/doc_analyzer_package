@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://github.com/AH0HIM/doc_analyzer_package/blob/master/logo/hillel_logo.png" 
         width="300" 
-        height="250"
+        height="260"
   />
 </p>
 
