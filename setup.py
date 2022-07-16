@@ -15,12 +15,12 @@ with io.open("Readme.md", encoding="utf-8") as f:
 
 def main():
     setup(
-        name='doc-analyzer-package',
+        name='pdf-analyzer-package',
         version='1.0',
-        description='My Doc Analyzer Package',
+        description='PDF Analyzer Tool Package',
         long_description=open('README.md').read(),
         long_description_content_type="text/markdown",
-        url="https://github.com/AH0HIM",
+        url="https://github.com/AH0HIM/doc_analyzer_package",
         author='Ikonnikov Ilya',
         author_email='i666943097@gmail.com',
         packages=[
@@ -29,7 +29,7 @@ def main():
             'doc_analyzer.link_analyzer'],
         install_requires=['requests>=2.21.0', 'pdfminer', 'pdfx~=1.4.1'],
         include_package_data=True,
-        keywords="mypackage for homework"
+        keywords="PDF Analyzer Tool Package"
     )
 
 

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/AH0HIM/doc_analyzer_package/blob/hotfix/logo/Hillel-Logo-Organization.png" 
+  <img src="https://github.com/AH0HIM/doc_analyzer_package/blob/hotfix/logo/hillel_logo.png" 
         width="300" 
         height="250"
   />
